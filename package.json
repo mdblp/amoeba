@@ -1,6 +1,6 @@
 {
   "name": "amoeba",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Common library for tidepool.org",
   "keywords": [
     "common",
@@ -10,6 +10,9 @@
   "homepage": "https://github.com/tidepool-org/amoeba",
   "bugs": "https://github.com/tidepool-org/amoeba/issues",
   "license": "BSD-2-Clause",
+  "publishConfig": {
+    "registry": "https://nexus.ci.diabeloop.eu/repository/your-loops-npm/"
+  },
   "author": {
     "name": "Eric Tschetter",
     "email": "cheddar@tidepool.org",
@@ -30,12 +33,12 @@
   "repository": "https://github.com/tidepool-org/amoeba.git",
   "dependencies": {
     "bunyan": "1.4.0",
-    "lodash": "3.4.0",
+    "lodash": "^4.17.15",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "jshint": "^2.10.2",
-    "mocha": "2.1.0",
+    "mocha": "^6.2.2",
     "salinity": "0.0.7"
   }
 }
