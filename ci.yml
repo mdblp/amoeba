@@ -1,4 +1,4 @@
-module: user-api-client
+module: amoeba
 type: nodejs
 runTests: false
 testCommand: npm test
